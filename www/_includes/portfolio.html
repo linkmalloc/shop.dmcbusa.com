@@ -1,0 +1,16 @@
+<!-- Portfolio Items
+				============================================= -->
+<div id="portfolio" class="portfolio row grid-container portfolio-reveal no-gutters" data-layout="fitRows">
+
+    <!-- Portfolio Item: Start -->
+
+    {% for item in site.data.items %}
+
+    {% include article.html 
+            title=item.title
+            price=item.price
+            image=item.image 
+    %}
+    {% endfor %}
+
+</div><!-- #portfolio end -->
