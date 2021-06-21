@@ -4,13 +4,18 @@
 
     <!-- Portfolio Item: Start -->
 
-    {% for item in site.data.items %}
-
-    {% include article.html 
-            title=item.title
-            price=item.price
-            image=item.image 
-    %}
-    {% endfor %}
+    {% for p in site.pages %}
+    {% if p.layout contains 'item' %}
+        {% include article.html 
+            title=p.title
+            price=p.price
+            url=p.url
+            sliders=p.sliders
+            folder=p.folder
+        %}
+    {% else %}
+        
+    {% endif %}
+{% endfor %}
 
 </div><!-- #portfolio end -->

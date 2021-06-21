@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: DMC Busa Printers
+email: dmcbusaprinters@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  DMC Busa Printers is your business partner with the most up to date technology at your disposal. We can provide you with offset printing, print-on-demand, large format, and small scale stickering, Engraving, Online Photobooks, online gifts, corporate gift give aways, Website Creation, digital marketing, direct marketing and paperless system conversion. We also provide your design, communication and modern media masses.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -33,6 +31,8 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+
+messenger: https://www.facebook.com/DMCBusaPrinter
 
 # Exclude from processing.
 # The following items will not be processed, by default.

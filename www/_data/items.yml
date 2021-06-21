@@ -1,20 +1,3 @@
-# partials:
-#  - name: section-video
-#    spaced: true
-#  - name: section
-#    title: A wide-ranging audience. One unifying idea.
-#    body: |
-#      Capturing the attention of all who saw it, #UNLEASHPRINT struck a positive chord with our audience. Its compelling message provided a great platform for us to produce inspiring social content, quirky product demos, thought-provoking headlines, surprising DM and more.
-#    spaced: "true"
-#  - name: section-carousel
-#    src:
-#     - "work/canon-unleashprint/carousel01.jpg"
-#     - "work/canon-unleashprint/carousel02.jpg"
-#     - "work/canon-unleashprint/carousel03.jpg"
-#     - "work/canon-unleashprint/carousel04.jpg"
-#     - "work/canon-unleashprint/carousel05.jpg"
-
-
 
 - title: Open Imagination
   price: "Php 1,200"
